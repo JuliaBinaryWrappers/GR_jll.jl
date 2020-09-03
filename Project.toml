@@ -1,6 +1,6 @@
 name = "GR_jll"
 uuid = "d2c73de3-f751-5644-a686-071e5b155ba9"
-version = "0.51.2+0"
+version = "0.52.0+0"
 
 [deps]
 Qt_jll = "ede63266-ebff-546c-83e0-1c6fb6d0efc8"
