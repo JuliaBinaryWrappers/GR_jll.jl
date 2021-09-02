@@ -1,6 +1,6 @@
 name = "GR_jll"
 uuid = "d2c73de3-f751-5644-a686-071e5b155ba9"
-version = "0.58.1+0"
+version = "0.59.0+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -21,5 +21,7 @@ libpng_jll = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.0"
-Bzip2_jll = "=1.0.6"
+julia = "1.6"
+Cairo_jll = "1.16.1"
+Bzip2_jll = "1.0.8"
+Libtiff_jll = "4.3.0"
