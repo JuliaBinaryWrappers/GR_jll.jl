@@ -13,18 +13,13 @@ using Pixman_jll
 using Qt5Base_jll
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("GR")
-JLLWrappers.@declare_executable_product(gksqt)
 JLLWrappers.@declare_library_product(libGKS, "libGKS.so")
 JLLWrappers.@declare_library_product(libGR, "libGR.so")
 JLLWrappers.@declare_library_product(libGR3, "libGR3.so")
 JLLWrappers.@declare_library_product(libGRM, "libGRM.so")
+JLLWrappers.@declare_executable_product(gksqt)
 function __init__()
     JLLWrappers.@generate_init_header(Bzip2_jll, Cairo_jll, FFMPEG_jll, Fontconfig_jll, GLFW_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Pixman_jll, Qt5Base_jll, Zlib_jll)
-    JLLWrappers.@init_executable_product(
-        gksqt,
-        "bin/gksqt",
-    )
-
     JLLWrappers.@init_library_product(
         libGKS,
         "lib/libGKS.so",
@@ -47,6 +42,11 @@ function __init__()
         libGRM,
         "lib/libGRM.so",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        gksqt,
+        "bin/gksqt",
     )
 
     JLLWrappers.@generate_init_footer()
