@@ -1,6 +1,6 @@
 name = "GR_jll"
 uuid = "d2c73de3-f751-5644-a686-071e5b155ba9"
-version = "0.72.6+0"
+version = "0.72.7+0"
 
 [deps]
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
