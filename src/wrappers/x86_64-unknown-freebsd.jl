@@ -10,7 +10,7 @@ using JpegTurbo_jll
 using libpng_jll
 using Libtiff_jll
 using Pixman_jll
-using Qt5Base_jll
+using Qt6Base_jll
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("GR")
 JLLWrappers.@declare_library_product(libGKS, "libGKS.so")
@@ -20,7 +20,7 @@ JLLWrappers.@declare_library_product(libGRM, "libGRM.so")
 JLLWrappers.@declare_executable_product(gksqt)
 JLLWrappers.@declare_executable_product(grplot)
 function __init__()
-    JLLWrappers.@generate_init_header(Bzip2_jll, Cairo_jll, FFMPEG_jll, Fontconfig_jll, GLFW_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Pixman_jll, Qt5Base_jll, Zlib_jll)
+    JLLWrappers.@generate_init_header(Bzip2_jll, Cairo_jll, FFMPEG_jll, Fontconfig_jll, GLFW_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Pixman_jll, Qt6Base_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libGKS,
         "lib/libGKS.so",
