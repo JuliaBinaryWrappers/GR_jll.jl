@@ -5,6 +5,7 @@ using Bzip2_jll
 using Cairo_jll
 using FFMPEG_jll
 using Fontconfig_jll
+using FreeType2_jll
 using GLFW_jll
 using JpegTurbo_jll
 using libpng_jll
@@ -20,7 +21,7 @@ JLLWrappers.@declare_library_product(libGRM, "libGRM.dll")
 JLLWrappers.@declare_executable_product(gksqt)
 JLLWrappers.@declare_executable_product(grplot)
 function __init__()
-    JLLWrappers.@generate_init_header(Bzip2_jll, Cairo_jll, FFMPEG_jll, Fontconfig_jll, GLFW_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Pixman_jll, Qt6Base_jll, Zlib_jll)
+    JLLWrappers.@generate_init_header(Bzip2_jll, Cairo_jll, FFMPEG_jll, Fontconfig_jll, FreeType2_jll, GLFW_jll, JpegTurbo_jll, libpng_jll, Libtiff_jll, Pixman_jll, Qt6Base_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libGKS,
         "bin\\libGKS.dll",
