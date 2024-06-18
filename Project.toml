@@ -1,6 +1,6 @@
 name = "GR_jll"
 uuid = "d2c73de3-f751-5644-a686-071e5b155ba9"
-version = "0.73.5+0"
+version = "0.73.6+0"
 
 [deps]
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
@@ -28,4 +28,4 @@ FreeType2_jll = "2.10.4"
 Libdl = "1"
 Libtiff_jll = "~4.5.1"
 Artifacts = "1"
-Qt6Base_jll = "~6.5.2"
+Qt6Base_jll = "~6.7.1"
