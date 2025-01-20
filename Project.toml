@@ -1,6 +1,6 @@
 name = "GR_jll"
 uuid = "d2c73de3-f751-5644-a686-071e5b155ba9"
-version = "0.73.10+0"
+version = "0.73.11+0"
 
 [deps]
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
@@ -20,7 +20,7 @@ libpng_jll = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
 Qt6Base_jll = "c0090381-4147-56d7-9ebc-da0b1113ec56"
 
 [compat]
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 julia = "1.6"
 Cairo_jll = "1.16.1"
 Bzip2_jll = "1.0.8"
