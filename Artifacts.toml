@@ -1,162 +1,162 @@
 [[GR]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fdba0a64e83b9ba9bc0a0571f4070eb3fdb8969e"
+os = "windows"
+
+    [[GR.download]]
+    sha256 = "b43e43ca6aa12996d56033a882824d8bfbe01ae6f8760817866566347e9168fd"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.i686-w64-mingw32-cxx03.tar.gz"
+[[GR]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59ab33e2eb43bf40daa03ec500059f1a873a282b"
+os = "windows"
+
+    [[GR.download]]
+    sha256 = "724f96bb81bc9025515b200cb0cd2d2e2baba04e4eb86f43d8a1ebe3039e3d9f"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.i686-w64-mingw32-cxx11.tar.gz"
+[[GR]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f54c0c055617847b545545c6e51133ac860dd947"
+os = "windows"
+
+    [[GR.download]]
+    sha256 = "0afc14f6d1e3c86c4b20b56d612b495f211cdb016fef5403978ef338b286167c"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.x86_64-w64-mingw32-cxx03.tar.gz"
+[[GR]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8588aef05aedd4a3af3bcd1275d5a1515d00493f"
+os = "windows"
+
+    [[GR.download]]
+    sha256 = "03f15595210bf75fc9598c101fb39a3dbb2edb3e5cbb0a1f6b95eba7cca27ff0"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.x86_64-w64-mingw32-cxx11.tar.gz"
+[[GR]]
 arch = "aarch64"
-git-tree-sha1 = "6ac5d5e20ad53d5594a298f35287b91138ac419d"
+git-tree-sha1 = "ca4c401029ed9041e93c85c75589c2b776f2e96d"
 os = "macos"
 
     [[GR.download]]
-    sha256 = "033a064e14e9fbbec09aefd1d58391252d92eec7a1b022e4ad4980bae3b19c20"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.aarch64-apple-darwin.tar.gz"
+    sha256 = "5ebe7a398ef7bbb8c8361ce1a22679245bf9f5a0efbefa8bebe543921327e024"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.aarch64-apple-darwin.tar.gz"
 [[GR]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "06dc3eb5a321606bcf766af7c3992311e5f4a07e"
+git-tree-sha1 = "91f99741b2a9f55a4454b5f0bf9692c6e2f40797"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "ef73f0e5e984e3c97f311fe8a450b5cbab650107bad949ed60acdfe4c1a83d8c"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "8b2746d6bf9887018d6d90d58c6f6b996a015370ccc1120af030d9073543cd8f"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.aarch64-linux-gnu-cxx03.tar.gz"
 [[GR]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6dec7754d50054379b99bca8e6362be054966599"
+git-tree-sha1 = "0c25229a4769cea7b5ccfa1cc39364ab2ea856d1"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "cbe25d0ed43194757676c88b25e9df241bf74d84ce5a578fb908fd8e2f5689a2"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "d7bf5d60ce603ad7bf2736685ed158435b5cef44ea8aab794b7f3bf9cf11c455"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.aarch64-linux-gnu-cxx11.tar.gz"
 [[GR]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6e0fd6b1420d807bd67374d6a837ddca9d9012a9"
+git-tree-sha1 = "92d8ab664865f1b37f55fcb6d8a97a338daf09af"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "ee5312b30cc4beb62e3ba1afa9dd663788e6b6b46300800806017b6ef04871f6"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "f7435d5a3258b3ec4e2c1d06219f396d897b5e03eb1e2b37297d4fb81be139fa"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[GR]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f29e79da55a081a3b4e330a1581aa3f5b7ffed8b"
+git-tree-sha1 = "08ff09fe4daea4d6c3afd89eabb90d3a4e4abe80"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "06711500940c313778f4cd382c0c7a631a5835b2f94844656b77b7b8f720103f"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "0e440896dd01c3b760968535286bf263118efb5a0a99f8bb3d52a1d4d1288118"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[GR]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "cf12d0c5b22b8a09a3b16f09027a2573cd799c7d"
+git-tree-sha1 = "bd6ff6340bb4d34c0ac5de02462701fa5f8cb979"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "855492ae6f4be0d03570eb38b5fe70ee6ad43b24e2dcbfd6d8d09b3a774c3296"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "ef36f751d4ef821cbeb0d77ce41199bcbdc20cb5b9eb42ad271001db6d38cd9b"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.i686-linux-gnu-cxx03.tar.gz"
 [[GR]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "02bb42681f04ad1bcdad07454a28a1c45eb3005c"
+git-tree-sha1 = "0b742cc3489e6ee2ef9c7d3bd3a4b2ece6c435a6"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "effcc0174f5f1feae5fd386612c788560ee3f3e41e2a86e2d0b6569d22fd0df1"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.i686-linux-gnu-cxx11.tar.gz"
-[[GR]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4c8d81aaa88779fc12eff0265eb0f6c727a0220b"
-os = "windows"
-
-    [[GR.download]]
-    sha256 = "8c8c1afa1a27aeca8c51657adb50eca308cebb3e37d9e952da0651d2bb0010e1"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.i686-w64-mingw32-cxx03.tar.gz"
-[[GR]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fcdc1c154888bab290d6f8e0602907ebc35eec06"
-os = "windows"
-
-    [[GR.download]]
-    sha256 = "5d67195e007e89c12f44437b41c4297319268aefc730a7f26741078792bb615c"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "dcd3893d6f328a8b15007f732446aefb30ef9a4c9054c41e922bcdac03606125"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.i686-linux-gnu-cxx11.tar.gz"
 [[GR]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4cf73efd856a23f7a53caeff767ca0ef459716ba"
+git-tree-sha1 = "70ff3d0b6b84a9d3dbf4b08e24b74fc4818dcf87"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "347b5cd715307dafd0720946c71127a768156fe5f3202948db7706cd973984aa"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "0e783837416be497b422459c7b72ddcd717ece2c779a592d587489467341c90b"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[GR]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "128767ec667986e7d7a6be116d47b253e1750d31"
+git-tree-sha1 = "848350faf25d83b31cb205a78978210c72c442f9"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "8354061c6f84811ff766c8f8de7d45fbc2b968e8cb83b922f3d9207de8bd4a5a"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "b44ce66a630e416d767071e4bac71f77abe498125aa535738ec8d22a26e77422"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[GR]]
 arch = "x86_64"
-git-tree-sha1 = "9f692b9f462dd243beee3d7433bedfb6917cae84"
+git-tree-sha1 = "b8deaae79dcec49e7b23d76d1ea4369ca4ffc5a9"
 os = "macos"
 
     [[GR.download]]
-    sha256 = "a4da43f4146e3463c48c608022d22d9bbae58718ed29d24e3507a55bbde2c752"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.x86_64-apple-darwin.tar.gz"
+    sha256 = "e119c94ba8944f77e180a81b831577ebb4e5b87c75a29f06bcabbdfc0165ffa6"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.x86_64-apple-darwin.tar.gz"
 [[GR]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ddcb9b9c86a6a525db1804656b64eaf774f53f2e"
+git-tree-sha1 = "ff00b0c3c4b612a74a8c1b7d2ab93f5ee0b30cd9"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "418763760bcf971390d898c5225c0f439cb409cfc7c1849041e4271ca01bcac0"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "eb5d0768503e8283b3e30cd22c7aae7d55ae24b30b5a51eed8dd59f28b7295e7"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.x86_64-linux-gnu-cxx03.tar.gz"
 [[GR]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2d4a05dbda3cb3f11c55fa063c04ac456b5720d1"
+git-tree-sha1 = "bedc63a3a72f4dabfe8074cadaf41d65973dab89"
 libc = "glibc"
 os = "linux"
 
     [[GR.download]]
-    sha256 = "5a4a93583517323bf9b8eb867194f3a9ae6a975a2e5a4128ff990e0969376ccf"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "191132858f98ba799fdd6e8265d358a28ff791494e5ef3f7c1a13be8d2d78925"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.x86_64-linux-gnu-cxx11.tar.gz"
 [[GR]]
 arch = "x86_64"
-git-tree-sha1 = "ef2a3691c7f5eb1ae1b8e988beecacf19c9b80fb"
+git-tree-sha1 = "4f7b7934f2721ccc2ccc2b28f357d6a509093e56"
 os = "freebsd"
 
     [[GR.download]]
-    sha256 = "dc1bb2320352d4107670016ed1ed4b3987faacbd3b1e8dcf69332367097f52e6"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.x86_64-unknown-freebsd.tar.gz"
-[[GR]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8006bcdba8ecac36cfa7f6edb41dd658e7c97267"
-os = "windows"
-
-    [[GR.download]]
-    sha256 = "ddbd79fcb58deae52e64778ba09e21ddbeaefd856073bdc145f2b1a63eb71f6b"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.x86_64-w64-mingw32-cxx03.tar.gz"
-[[GR]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "67de2ef2a933857373f728cdd366cc6dc9180017"
-os = "windows"
-
-    [[GR.download]]
-    sha256 = "cfc38c407cb953e0f80e611693780d9f6ecb3a16da47bfe3a969a15ecf494317"
-    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.14+0/GR.v0.73.14.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "88b641f3de0ca842490309a63ba3f1409512fe41cbccd07152b861f09d1b3d00"
+    url = "https://github.com/JuliaBinaryWrappers/GR_jll.jl/releases/download/GR-v0.73.16+0/GR.v0.73.16.x86_64-unknown-freebsd.tar.gz"
