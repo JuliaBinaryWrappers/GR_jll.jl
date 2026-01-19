@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("GR")
-JLLWrappers.@generate_main_file("GR", UUID("d2c73de3-f751-5644-a686-071e5b155ba9"))
+JLLWrappers.@generate_main_file("GR", Base.UUID("d2c73de3-f751-5644-a686-071e5b155ba9"))
 end  # module GR_jll
